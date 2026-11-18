@@ -1,0 +1,12 @@
+﻿[demo] 假服务器已启动：127.0.0.1:57958
+[client] 已连接 127.0.0.1:57958
+[client] 登录成功: MaiBotDemo (12345678-90ab-cdef-1234-567890abcdef)
+[client] 进入世界 minecraft:overworld（minecraft:overworld）
+[demo] 初始状态： {'connected': True, 'joined': True, 'health': 20.0, 'food': 20, 'position': [0.5, 2.0, 0.5], 'yaw': 0.0, 'pitch': 0.0, 'on_ground': True, 'in_water': False, 'dimension': 'minecraft:overworld', 'time_of_day': 6000, 'held_item': '空气', 'entities': 0, 'players': 0, 'chunks': 9, 'server_brand': '', 'ping_ms': 0.0}
+[demo] 挖 (2, 2, 2)：True 已破坏 stone
+[demo] 该位置现在是：minecraft:air
+[demo] 走到 (6, 2, 0)：True 已到达目标附近
+[demo] 当前坐标：Vec3(x=4.93906810895997, y=2.0, z=0.5005212849186156)
+[demo] 服务器收到的聊天： ['大家好，我是麦麦，刚学会自己挖矿~']
+[demo] 服务器收到 40 个位置包，71 个动作包
+[demo] 结束
