@@ -1,0 +1,2 @@
+# 运行时零依赖；安装 cryptography 可让正版（在线模式）服务器的 AES 加密走 C 实现。
+# pip install cryptography

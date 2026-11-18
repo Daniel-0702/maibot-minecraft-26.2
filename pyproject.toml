@@ -1,0 +1,24 @@
+# 开发/测试用的项目元数据（插件本身由 MaiBot Runner 直接加载，不需要打包安装）。
+
+[project]
+name = "maibot-minecraft"
+version = "2.0.5"
+description = "MaiBot 的 Minecraft Java 26.2 原生陪玩插件：纯 Python 协议客户端 + 行为层"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+crypto = ["cryptography>=41"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+ignore = ["E501"]
+
+[tool.pyright]
+pythonVersion = "3.10"
+typeCheckingMode = "basic"

@@ -1,0 +1,9 @@
+# 忽略运行时配置、缓存与开发中间产物
+config.toml
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+tools/mcdata/
+auth.json
